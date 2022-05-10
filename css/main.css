@@ -163,7 +163,10 @@ h6 {
     background-repeat: no-repeat;
     background-position: 130px;
 }
-
+.co>li>a{
+    color: black;
+    font-size: small;
+}
 
 .pricing {
     position: absolute;
