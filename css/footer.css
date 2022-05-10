@@ -1,0 +1,105 @@
+footer{
+    position: relative;
+   
+    padding: 40px ;
+    
+    background: rgb(46, 46, 46);
+}
+.footer-content{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    height: 160px;
+}
+
+.f-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctgry{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    list-style: none;
+}
+.ctgry-title{
+    grid-column: span 2;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.ctgry .f-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(236, 233, 233);
+}
+.f-link:hover{
+    color: white;
+}
+
+.f-title, .info{
+    color: rgb(168, 161, 161);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.f-title{
+    margin-top: 80px;
+    color: white;
+    font-size: 20px;
+}
+
+.f-social{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.s-link{
+   color: white;
+   margin-left: 20px;
+   text-transform: capitalize;
+}
+.s-link:nth-child(1){
+    margin-left: 0;
+}
+
+.icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ic{
+    color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ic:hover{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.credit{
+   width: 1320px;
+    padding: 10px;
+    position: absolute;
+    text-transform: capitalize;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    color: rgb(179, 173, 173);
+    background-color:rgb(20, 19, 19) ;
+
+}
+
